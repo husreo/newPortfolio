@@ -6,6 +6,7 @@ import { Work } from './Page/work';
 import { Skill } from './Page/skill';
 import { Contact } from './Page/contact';
 import { Footer } from './Component/Footer';
+import { Helmet } from 'react-helmet';
 
 function App() {
   const [menu, setMenu] = React.useState([
@@ -41,6 +42,20 @@ function App() {
   }
   return ( 
     <div className="App px-2 sm:px-4 md:px-20 Audiowide">
+      <Helmet>
+        <title>Steven</title>
+        <meta name="description" content="Steven Springer Software Engineer portfolio" />
+        <meta name="keywords" content="react, meta tags, seo" />
+        <meta name="author" content="Your Name" />
+        <meta property="og:title" content="Steven" />
+        <meta property="og:description" content="Steven Springer Software Engineer portfolio" />
+        <meta property="og:image" content="" />
+        <meta property="og:url" content="/bannerimg1.jpg" />
+        <meta name="twitter:title" content="Steven" />
+        <meta name="twitter:description" content="Steven Springer Software Engineer portfolio" />
+        <meta name="twitter:image" content="/bannerimg1.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       <BrowserRouter>
         <div className='flex justify-end mt-4'>
           <Link to='https://x.com/intent/follow?screen_name=husreo_tx' className='text-white rounded-xl px-4 py-1 bg-sky-700 hover:bg-sky-800 transition' target='block' >Follow X</Link>
