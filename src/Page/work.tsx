@@ -11,7 +11,7 @@ export const Work = () => {
                         <p className="text-xs text-left text-lime-200">{val.description}</p>
                     </div>
                     <div className="w-full mt-3">
-                        <p className="text-xs text-left text-zinc-700">{val.stack.join(' | ')}</p>
+                        <p className="text-xs text-left text-zinc-500">{val.stack.join(' | ')}</p>
                     </div>
             </div>
         ) }
