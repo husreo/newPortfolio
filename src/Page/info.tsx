@@ -9,7 +9,7 @@ export const About = () => {
 
             <GitHubCalendar
                 username="husreo"
-                year="last"
+                year={2024}
                 transformTotalCount={true}
                 style={{ marginTop: "30px", color: "#71717a", minWidth: '800px' }}
             />
