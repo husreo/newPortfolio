@@ -17,11 +17,11 @@ const socialMediaIcons: { component: ReactNode; url: string }[] = [
     },
     {
       component: <Telegram color='#fff' size={20} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />,
-      url: 'https://t.me/DevCutup',
+      url: 'https://t.me/@stevenspringer',
     },
     {
       component: <Twitter color='#fff' size={20} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />,
-      url: 'https://twitter.com/stevenspringer',
+      url: 'https://twitter.com/husreo_tx',
     },
     {
       component: <Gmail color='#fff' size={20} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />,
