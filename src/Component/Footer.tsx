@@ -21,7 +21,7 @@ const socialMediaIcons: { component: ReactNode; url: string }[] = [
     },
     {
       component: <Twitter color='#fff' size={20} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />,
-      url: 'https://twitter.com/husreo_tx',
+      url: 'https://twitter.com/stevenspringer',
     },
     {
       component: <Gmail color='#fff' size={20} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />,
