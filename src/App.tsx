@@ -47,7 +47,7 @@ function App() {
           <Link to='https://x.com/intent/follow?screen_name=husreo_tx' className='text-white rounded-xl px-4 py-1 bg-sky-700 hover:bg-sky-800 transition' target='block' >Follow X</Link>
         </div>
         <div className='rounded-full mx-auto w-64 h-64 p-8 flex justify-center border border-zinc-500 border-dashed m-2 items-center mt-12 sm:mt-36'>
-          <img src="/setoqu_sol.png" className='opacity-70 rounded-full' alt="" />
+          <img src="/setoqu_sol.png" className='rounded-full' alt="" />
         </div>
         <div className='text-zinc-500 text-sm leading-6 mt-4'>
           <div className='text-zinc-100 text-xl'>Steven Springer</div>I'm a full-stack developer based in Netherlands.<br/> I love to build <a href='https://github.com/husreo' target='block' className='underline hover:text-white transition'>things</a> with web and blockchain and post <a href='https://twitter.com/husreo_tx' target='block' className='underline hover:text-white transition'>news</a> regularly.Find out more.
