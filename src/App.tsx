@@ -50,7 +50,7 @@ function App() {
           <img src="/setoqu_sol.png" className='rounded-full' alt="" />
         </div>
         <div className='text-zinc-500 text-sm leading-6 mt-4'>
-          <div className='text-zinc-100 text-xl'>Steven Springer</div>I'm a full-stack developer based in Netherlands.<br/> I love to build <a href='https://github.com/husreo' target='block' className='underline hover:text-white transition'>things</a> with web and blockchain and post <a href='https://twitter.com/husreo_tx' target='block' className='underline hover:text-white transition'>news</a> regularly.Find out more.
+          <div className='text-zinc-100 text-xl'>Steven Springer</div>I'm a full-stack developer based in Netherlands.<br/> I love to build <a href='https://github.com/husreo' target='block' className='underline hover:text-white transition'>things</a> with web and blockchain and post <a href='https://twitter.com/husreo_tx' target='block' className='underline hover:text-white transition'>news</a>
           
         </div>
         <div className='flex justify-center gap-2 mt-12'>
