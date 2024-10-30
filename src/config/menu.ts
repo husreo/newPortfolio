@@ -82,7 +82,7 @@ export const projects = [
     links: [
       
       {
-        link: 'https://t.me/sac_volume_bot',
+        link: 'https://t.me/volume_boost_sol_bot',
         id: 2,
       },
     ],

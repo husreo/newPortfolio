@@ -51,7 +51,6 @@ function App() {
         </div>
         <div className='text-zinc-500 text-sm leading-6 mt-4'>
           <div className='text-zinc-100 text-xl'>Steven Springer</div>I'm a full-stack developer based in Netherlands.<br/> I love to build <a href='https://github.com/husreo' target='block' className='underline hover:text-white transition'>things</a> with web and blockchain and post <a href='https://twitter.com/husreo_tx' target='block' className='underline hover:text-white transition'>news</a>
-          
         </div>
         <div className='flex justify-center gap-2 mt-12'>
           {menu.map((val, index) => <Link to={val.url} key={val.title + index} className= {`${val.selected? 'text-white':'text-zinc-500'} text-xs sm:text-sm w-24 py-1 border border-dashed border-zinc-500 hover:text-white transition`}onClick={() => changeMenue(index)} >{val.title}</Link>)}
