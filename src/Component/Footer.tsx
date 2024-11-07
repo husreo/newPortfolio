@@ -1,4 +1,3 @@
-import { projects } from "../config/menu"
 import { Link } from "react-router-dom"
 import { ReactNode } from 'react';
 import { 

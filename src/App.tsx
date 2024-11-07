@@ -6,7 +6,6 @@ import { Work } from './Page/work';
 import { Skill } from './Page/skill';
 import { Contact } from './Page/contact';
 import { Footer } from './Component/Footer';
-import { Helmet } from 'react-helmet';
 
 function App() {
   const [menu, setMenu] = React.useState([
