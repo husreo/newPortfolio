@@ -1,4 +1,3 @@
-import { projects } from "../config/menu"
 import { Link } from "react-router-dom"
 import { ReactNode } from 'react';
 import { 
@@ -17,7 +16,7 @@ const socialMediaIcons: { component: ReactNode; url: string }[] = [
     },
     {
       component: <Telegram color='#fff' size={20} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />,
-      url: 'https://t.me/DevCutup',
+      url: 'https://t.me/stevensprg',
     },
     {
       component: <Twitter color='#fff' size={20} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />,
