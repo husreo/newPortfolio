@@ -11,7 +11,7 @@ export const About = () => {
                 username="husreo"
                 year={'last'}
                 transformTotalCount={true}
-                style={{ marginTop: "30px", color: "#71717a", minWidth: '800px' }}
+                style={{ marginTop: "30px", color: "#fff", minWidth: '800px' }}
             />
         </div>
     </div> 
