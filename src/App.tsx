@@ -42,7 +42,7 @@
       setMenu(menuClone)
     }
 
-    const quantity = 15;
+    const quantity = 20;
   
     // Create an array of 15 firefly elements
     const fireflies = Array.from({ length: quantity }, (_, index) => (
