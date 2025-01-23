@@ -33,9 +33,9 @@ const socialMediaIcons: { component: ReactNode; url: string }[] = [
 ]
 export const Footer = () => {
     return <div className='py-4'>
-        <div className='flex gap-4 justify-center'>
+        <div className='flex gap-4 justify-center '>
         {socialMediaIcons.map((val, index) => <Link target='block' to = {val.url}>{val.component}</Link> )}
         </div>
-        <div className='text-zinc-500 text-xs mt-2'>© 2024 Steven Inc. | Privacy Policy</div>
+        <div className='text-zinc-500 text-xs mt-2 Audiowide'>© 2024 Steven Inc. | Privacy Policy</div>
     </div>
 }

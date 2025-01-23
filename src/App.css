@@ -1,8 +1,6 @@
 .App {
   text-align: center;
-  /* background-image: url("/public/pattern.png"); */
   max-width: 1024px;
-  height: 500px;
   margin: auto
 }
 
