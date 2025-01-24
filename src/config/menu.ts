@@ -31,14 +31,14 @@ export const skills = [
 
 export const projects = [
   {
-    id: 13,
-    title: 'Pump.fun bundler',
-    description: 'This pump fun bundler is dApp to make easy create and buy token in single action.',
-    stack: ['Next.js', 'TailwindCSS', 'Solana', 'Web3', 'Pump fun'],
-    image: '/img/13.png',
+    id: 15,
+    title: 'Solana Coinflip game',
+    description: 'Coinflip casino game built on Solana blockchain',
+    stack: ['Rust', 'Anchor', 'Solana', 'Web3', 'Anchor', 'React'],
+    image: '/img/15.png',
     links: [
       {
-        link: 'https://github.com/husreo/Pump.fun-bundler',
+        link: 'https://flip.is',
         id: 2,
       },
     ],
