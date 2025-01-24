@@ -8,10 +8,10 @@ export const Work = () => {
                     <Link to={val.links[0].link} className="text-left text-white hover:underline text-md sm:text-lg" target="block">{val.title}</Link>
                     <img src={val.image} alt="" className="mt-3" />
                     <div className="w-full mt-3">
-                        <p className="text-sm sm:text-md text-left text-lime-200">{val.description}</p>
+                        <p className="text-md text-left text-lime-200">{val.description}</p>
                     </div>
                     <div className="w-full mt-3">
-                        <p className="text-sm sm:text-md text-left text-zinc-500">{val.stack.join(' | ')}</p>
+                        <p className="text-sm sm:text-lg text-left text-zinc-500">{val.stack.join(' | ')}</p>
                     </div>
             </div>
         ) }
