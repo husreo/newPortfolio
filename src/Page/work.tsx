@@ -13,7 +13,7 @@ export const Work = () => {
                 {/* <div className="w-full mt-3">
                     <p className="text-sm sm:text-md text-left text-zinc-400">{val.stack.join(' | ')}</p>
                 </div> */}
-                <ul className="flex flex-wrap w-full mt-3 gap-1 first:marker:hidden">
+                <ul className="flex flex-wrap w-full mt-3 gap-1 first:marker:hidden text-zinc-400">
                     {val.stack.map((v, index) =>
                         <li key={index + "work"} className="flex justify-between text-sm items-center">
                             <span>{v}</span>
