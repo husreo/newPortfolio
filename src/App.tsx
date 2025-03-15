@@ -59,8 +59,14 @@ function App() {
           {fireflies}
         </div>
 
-        <div className='flex justify-end mt-4 Audiowide fixed top-0'>
-          <Link to='https://x.com/intent/follow?screen_name=husreo_tx' className='text-white rounded-xl px-4 py-1 bg-sky-700 hover:bg-sky-800 transition' target='block' >Follow X</Link>
+        <div className='flex justify-end mt-4 Audiowide fixed top-0 z-30'>
+          <Link 
+            to='https://x.com/intent/follow?screen_name=husreo_tx' 
+            className='follow-button text-white rounded-xl px-4 py-1.5 hover:bg-sky-800 transition' 
+            target='block'
+          >
+            Follow X
+          </Link>
         </div>
         {/* <div className='rounded-full mx-auto w-64 h-64 p-8 flex justify-center border border-zinc-500 border-dashed m-2 items-center mt-12 sm:mt-36'>
             <img src="/setoqu_sol.png" className='rounded-full' alt="" />
